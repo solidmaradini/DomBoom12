@@ -1,11 +1,11 @@
 * {
-    padding: 0;
-    margin : 0;
+    padding: 0px;
+    margin : 10px;
     box-sizing : border-box;
     font-family: 'Roboto', sans-serif;
   }
   html {
-    background-color: #18a10c;
+    background-color: #070125;
   }
   h2 {
       font-size: 60px;
@@ -22,6 +22,24 @@
       font-weight: normal;
       color: #4F4B65;
   }
+  header {
+      display: flex;
+      justify-content: space-between;
+      
+  }
+
+  .flex-menu {
+      display: flex;
+      background-color:#070125;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .flex-menu a {
+      color: white;
+      padding: 1px;  
+    }
+
+
   .button {
         background-color: #00F387;
         color: white;
@@ -32,6 +50,8 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 32%;
+        position: relative;
+        justify-content: center;
   }
   .button2 {
         background-color: white;
@@ -40,8 +60,11 @@
         padding: 8px 10px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
+        display: flex;
         font-size: 16px;
         border-radius: 32%;
+        position: relative;
+        justify-content: center;
+
         
   }
