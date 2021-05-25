@@ -6,7 +6,8 @@
   }
   body {
     background-color: #070125;
-    background: radial-gradient(circle,  rgb(2, 2, 53) 3%, rgba(2,0,36,1) 100%)
+    background: radial-gradient(circle,  rgb(2, 2, 53) 3%, rgba(2,0,36,1) 100%);
+  
   }
 
   main {
@@ -47,7 +48,6 @@
 
   .flex-menu {
       display: flex;
-      background-color:#070125;
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
@@ -119,8 +119,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 100px;
+        margin-top: 100px; 
         
+  }
+
+  @media screen {
+    
+  }
+
+  .domboom {
+    box-sizing: border-box;
+    height: fit-content;
+    width: fit-content;
   }
 
   .domboom img {
