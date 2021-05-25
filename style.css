@@ -47,12 +47,12 @@
 
   .flex-menu {
       display: flex;
-      background-color:#070125;
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
       margin-top: 15px; 
       margin-right: 80px;
+      
       
   }
 
@@ -122,8 +122,18 @@
         margin-top: 100px;
         
   }
+  .dombomm {
+  position: relative;
+  box-sizing: border-box;
+  height: fit-content;
+  width: fit-content;
+
+
+
+  }
 
   .domboom img {
+   
     position: relative;
     width: 100%;
     max-width: 100%;
@@ -131,46 +141,52 @@
     
    
    }
-.padright1 {
+
+   
+ .padleft1{
     position: absolute;
-    top: 30px;
-    left: 370px;
-    width: 100px;
-    height: 100px;  
+    top: 6%;
+    left: 34%;
+    width: 12%;
+    padding-bottom: 10%;
+    height: 10%;  
     background-color: #7c0b15;
     border-radius: 100%;
       
 }
  
-.padright2 {
+.padright2{
   position: absolute;
-  bottom: 235px;
-  left: 415px;
+  top: 27%;
+  right: 7%;
   width: 10%;
+  padding-bottom:10%;
   background-color: red;
   border-radius: 100%;
   height: 20%;   
 
 }
 
+.padleft3{
+  position: absolute;
+  bottom: 18%;
+  left: 44%;
+  width: 14%;
+  padding-bottom:14% ;
+  height: 30%;  
+  background-color: rgb(243, 127, 19);
+  border-radius: 100%;
 
-.padright3{
-    position: absolute;
-    top: 240px;
-    left: 445px;
-    width: 150px;
-    height: 150px;  
-    background-color: rgb(19, 131, 243);
-    border-radius: 100%;
-  
+
+
 }
 
 .padcenter1{
     position: absolute;
-    top: 70px;
-    left: 530px;
-    width: 150px;
-    height: 150px;  
+    top: 15%;
+    left: 52%;
+    width: 14%;
+    height: 30%;  
     background-color: #b6236c;
     border-radius: 100%;
   
@@ -179,51 +195,50 @@
 
 .padcenter2{
     position: absolute;
-    top: 70px;
-    left: 690px;
-    width: 150px;
-    height: 150px;  
+    top: 15%;
+    right: 19%;
+    width: 14%;
+    height: 30%;  
     background-color: #1974ce;
     border-radius: 100%;
 }
 
+.padright1{
+    position: absolute;
+    top: 6%;
+    right: 2%;
+    width: 10%;
+    background-color: rgb(128, 0, 111);
+    border-radius: 100%;
+    height: 20%; 
+  }
+
+
 .padleft2{
   position: absolute;
-  bottom: 240px;
-  right: 70px;
+  top: 29%;
+  left: 40%;
   width: 10%;
+  height: 20%; 
+  padding-bottom: 10%;
   background-color: green;
   border-radius: 100%;
-  height: 20%; 
+  
   
 }
 
-.padleft3{
+
+.padright3{
   position: absolute;
-  bottom: 80px;
-  right: 97px;
-  width: 150px;
-  height: 150px;  
-  background-color: rgb(243, 127, 19);
+  bottom: 20%;
+  right: 10%;
+  width: 14%;
+  padding-bottom: 14%;
+  height: 30%;  
+  background-color: rgba(12, 233, 31, 0.959);
   border-radius: 100%;
 
-
-
 }
-
-.padleft1 {
-    position: absolute;
-  top: 30px;
-  right: 15px;
-  width: 10%;
-  background-color: rgb(128, 0, 111);
-  border-radius: 100%;
-  height: 20%; 
-}
-
-
-
-  
 
 
   footer {
