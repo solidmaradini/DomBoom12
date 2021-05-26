@@ -241,7 +241,7 @@
 }
 
 /*PARTE INFERIOR*/
-  footer {
+footer {
         position: relative;
         display: flex;
         justify-content: center;
@@ -259,13 +259,14 @@
       font-weight: bold;
 
 }
-  .footer p {
+.footer p {
         display: flex;
         align-items: center;
         flex-direction: column;
         margin-bottom: 20px;
         
   }
+  
 /*RESPONSIVE DESIGN A MOBILE*/
   @media screen and (max-width: 360px) { 
     * {

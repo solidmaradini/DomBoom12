@@ -27,11 +27,11 @@
         <div class="domboom">
             <img src="img/drumkit.png" alt="Bateria">
 
-            <button class="padright1"></button>
-            <audio src="hitthedoomboom/boom.wav"></audio>
-
-            <button class="padright2"></button>
-            <audio src="hitthedoomboom/clap.wav"></audio>
+            <button data-instrument="Boom" onclick="playInstrument(this)" class="padright1"></button>
+            <audio data-instrument="Boom" src="hitthedoomboom/boom.wav"></audio>
+            
+            <button data-instrument="Clap" onclick="playInstrument(this)" class="padright2"></button>
+            <audio data-instrument="Clap" src="hitthedoomboom/clap.wav"></audio>
 
             <button class="padright3"></button>
             <audio src="hitthedoomboom/hihat.wav"></audio>
@@ -43,7 +43,7 @@
             <audio src="hitthedoomboom/openhat.wav"></audio>
 
             <button class="padleft2"></button>
-            <audio src="hitthedoomboom/ride.wav"></audio>
+            <audio src="hitthedoomboom/ride.wav" class="padleftaudio2"></audio>
 
             <button class="padleft3"></button>
             <audio src="hitthedoomboom/snare.wav"></audio>

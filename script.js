@@ -1,4 +1,15 @@
-let padright1 = document.querySelector (".padright1");
+function playInstrument(element){
+    let dataInstrument = element.getAttribute("data-instrument");
+    let instrumentInHtml = document.querySelector('audio[data-instrument='+ dataInstrument +']');
+    instrumentInHtml.currentTime = 0;
+    instrumentInHtml.play();
+};
+
+
+
+
+
+
 let padright2 = document.querySelector (".padright2");
 let padright3 = document.querySelector (".padright3");
 let padcenter1 = document.querySelector (".padcenter1");
@@ -8,22 +19,19 @@ let padleft3 = document.querySelector (".padleft3");
 let padcenter2 = document.querySelector (".padcenter2");
 
 
-let sonidoBoom = new Audio("hitthedoomboom/boom.wav");
+
 let sonidoClap = new Audio("hitthedoomboom/clap.wav");
 let sonidoHihat = new Audio("hitthedoomboom/hihat.wav");
 let sonidoKick = new Audio("hitthedoomboom/kick.wav");
 let sonidoOpenhat = new Audio("hitthedoomboom/openhat.wav");
-let sonidoRide = new Audio("hitthedoomboom/ride.wav");
 let sonidoSnare = new Audio("hitthedoomboom/snare.wav");
 let sonidoTink = new Audio("hitthedoomboom/tink.wav")
 let sonidoTom = new Audio("hitthedoomboom/tom.wav");
+let sonidoRide = document.querySelector(".padleftaudio2");
 
-padright1.addEventListener("click", function(){
-    sonidoBoom.play();
-    sonidoBoom.currentTime = 0;
-});
 
-padright2.addEventListener("click", function(){
+
+padright2.addEventListener("keypress", function(){
     sonidoClap.play();
     sonidoClap.currentTime = 0;
 });
@@ -45,6 +53,7 @@ padleft1.addEventListener("click", function(){
 
 
 padleft2.addEventListener("click", function(){
+    console.log("funciono !!!")
     sonidoRide.play();
     sonidoRide.currentTime = 0;
 });
