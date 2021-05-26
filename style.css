@@ -11,7 +11,7 @@
     background: radial-gradient(circle,  rgb(2, 2, 53) 3%, rgba(2,0,36,1) 100%);
   
   }
-
+/*CAJA PRINCIPAL CONTIENE TITULOS, IMG, BOTONES*/
   main {
     width: 100%;
     max-width: 1024px;
@@ -76,7 +76,7 @@
 .login a {
     margin-left: 15px ;
     }
-/*CAJA PRINCIPAL TEXTO + IMAGEN + BOTONES*/
+/*CAJA TEXTO + IMAGEN + BOTONES*/
   .button {
         background-color: #00F387;
         color: white;
@@ -143,7 +143,7 @@
    }
 
 /* BONOTES DEL DRUMKIT*/   
- .padleft1{
+.padleft1{
     position: absolute;
     top: 6%;
     left: 34%;
